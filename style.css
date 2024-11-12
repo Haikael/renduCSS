@@ -1,0 +1,69 @@
+
+header{
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+
+}
+#headerIndex{
+
+    background-image: url(back.png);
+   
+}
+#headerPhantom{
+
+    background-image: url(Many_pochette_phantom.jpg);
+    background-color: aliceblue;
+}
+#headerPhe{
+
+    background-image: url(Many_PHE.jpg);
+}
+#headerNo{
+
+    background-image: url( Many_NO.jpg);
+}
+h1,h2 {
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.Parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Enfant , img{
+width: 95%;
+height: auto;
+}
+
+h3, p{
+    text-align: center;
+    margin: 10px 50px;
+}
+.ParentColumn{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid violet;
+    justify-content: space-between;
+    height: 500px;
+    
+}
+.EnfantColumn{
+border: 1px solid red;
+width: 100%;
+height: auto;
+}
+audio{
+    width: 100%;
+}
+h1{
+    color: rgb(0, 0, 0);
+
+    font-family: "UnifrakturMaguntia", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+      
